@@ -3,11 +3,17 @@
 REPOSITORY=/home/ubuntu/cicdTest
 cd $REPOSITORY
 
-APP_NAME=cicdTest
+APP_NAME=cicdtest
 JAR_NAME=$(ls $REPOSITORY/target/ | grep 'SNAPSHOT.jar' | tail -n 1)
 JAR_PATH=$REPOSITORY/target/$JAR_NAME
 
+echo "JAR_NAME: $JAR_NAME"
+
+echo "> 현재 구동중인 애플리케이션 pid 확인"
+
 CURRENT_PID=$(pgrep -f $APP_NAME)
+
+echo "현재 구동 중인 애플리케이션 pid: $CURRENT_PID"
 
 if [ -z $CURRENT_PID ]
 then
