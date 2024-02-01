@@ -1,0 +1,7 @@
+### response-header
+GET http://localhost:8080/response-header
+
+
+### response-body-json
+GET http://localhost:8080/response-json
+
