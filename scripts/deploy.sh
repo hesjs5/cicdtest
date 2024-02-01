@@ -3,7 +3,7 @@
 REPOSITORY=/home/ubuntu/cicdTest
 cd $REPOSITORY
 
-APP_NAME=cicdtest
+APP_NAME=cicdTest
 JAR_PATH=$(ls $REPOSITORY/target/*.jar | tail -n 1)
 echo "JAR_PATH: $JAR_PATH"
 
