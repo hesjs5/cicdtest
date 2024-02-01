@@ -4,10 +4,7 @@ REPOSITORY=/home/ubuntu/cicdTest
 cd $REPOSITORY
 
 APP_NAME=cicdtest
-JAR_NAME=$(ls $REPOSITORY/target/ | grep 'jar' | tail -n 1)
-JAR_PATH=$REPOSITORY/target/$JAR_NAME
-
-echo "JAR_NAME: $JAR_NAME"
+JAR_PATH=$(ls $REPOSITORY/target/*.jar | tail -n 1)
 echo "JAR_PATH: $JAR_PATH"
 
 echo "> 현재 구동중인 애플리케이션 pid 확인"
