@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="hello.board.repository.DepartmentMapper">
+    <select id="getTotalDepartmentCount" resultType="int">
+        SELECT COUNT(*)
+        FROM department;
+    </select>
+
+    <select id="getAllDeptListOrderByNoDesc" resultType="map">
+        SELECT deptno, dname, loc
+        FROM department
+        ORDER BY deptno DESC;
+    </select>
+
+    <select id="findEmployeeDeptByNo" resultType="hello.board.dto.FindEmployeeDeptByNoDTO">
+        SELECT e.ename, d.dname, d.loc
+        FROM department d
+                 INNER JOIN employment e ON d.deptno = e.deptno
+        WHERE e.empno = #{empno};
+    </select>
+
+    <select id="findAllEmpDeptList" resultType="hello.board.dto.FindAllEmpDeptListDTO">
+        SELECT e.empno, e.ename, d.deptno, d.dname, d.loc
+        FROM department d
+                 INNER JOIN employment e ON d.deptno = e.deptno;
+    </select>
+
+    <select id="findAllEmpDeptListOuterJoin" resultType="hello.board.dto.FindAllEmpDeptListOuterJoinDTO">
+        SELECT e.empno, e.ename, d.deptno, d.dname, d.loc
+        FROM department d
+                 LEFT OUTER JOIN employment e ON d.deptno = e.deptno;
+    </select>
+
+    <select id="getEmpGroupByDeptno" resultType="hello.board.dto.GetEmpGroupByDeptnoDTO">
+        SELECT deptno, COUNT(*) AS EMP_COUNT
+        FROM employment
+        GROUP BY deptno;
+    </select>
+
+    <select id="getSalGroupByLoc" resultType="hello.board.dto.GetSalGroupByLocDTO">
+        SELECT d.loc, AVG(e.sal) AS AVG_SAL
+        FROM department d
+                 INNER JOIN employment e ON d.deptno = e.deptno
+        GROUP BY d.loc;
+    </select>
+
+    <select id="getEmpGroupByDeptno2" resultType="hello.board.dto.GetEmpGroupByDeptnoDTO2">
+        SELECT d.deptno, d.dname, IFNULL(e.EMP_COUNT, 0) AS EMP_COUNT
+        FROM (SELECT COUNT(empno) AS EMP_COUNT, deptno
+              FROM employment
+              GROUP BY deptno) e
+                 INNER JOIN department d ON e.deptno = d.deptno;
+    </select>
+</mapper>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="hello.board.repository.member.MemberMapper">
+    <insert id="create" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO member(name, age, grade, image_name, team_id)
+        VALUES (#{name}, #{age}, #{grade}, #{imageName}, #{teamId});
+    </insert>
+
+    <select id="findById" resultType="Member" parameterType="java.lang.Long">
+        SELECT *
+        FROM member
+        WHERE id = #{id};
+    </select>
+
+    <select id="findAgeGreaterOrEqualThan" resultType="Member" parameterType="java.lang.Integer">
+        SELECT *
+        FROM member
+        <if test="age != null">
+            WHERE age >= #{age};
+        </if>
+    </select>
+
+    <select id="findMembersByTeamId" resultType="Member" parameterType="java.lang.Long">
+        SELECT *
+        FROM member AS m
+                 LEFT OUTER JOIN team AS t on m.team_id = t.id
+        WHERE t.id = #{id};
+    </select>
+
+    <insert id="bulkInsert" parameterType="hello.board.domain.member.Member">
+        INSERT INTO member(name, age, grade, image_name, team_id)
+        VALUES
+        <foreach collection="list" index="index" item="member" separator=",">
+            (
+             #{member.name},
+             #{member.age},
+             #{member.grade},
+             #{member.imageName},
+             #{member.teamId}
+            )
+        </foreach>
+    </insert>
+
+    <select id="findAll" resultType="Member">
+        SELECT *
+        FROM member;
+    </select>
+</mapper>

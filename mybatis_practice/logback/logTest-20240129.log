@@ -1,0 +1,1755 @@
+[2024-01-29 08:49:44.429][main][h.b.s.ServletApplication][INFO]:Starting ServletApplication on DESKTOP-5R4SPPS with PID 12732 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 08:49:44.432][main][h.b.s.ServletApplication][INFO]:The following profiles are active: local
+[2024-01-29 08:49:45.052][main][o.m.s.m.ClassPathMapperScanner][WARN]:No MyBatis mapper was found in '[hello.board.servlet]' package. Please check your configuration.
+[2024-01-29 08:49:45.463][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 08:49:45.469][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 08:49:45.470][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 08:49:45.470][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 08:49:45.665][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 08:49:45.671][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 08:49:45.671][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1192 ms
+[2024-01-29 08:49:45.814][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 08:49:45.869][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 08:49:45.919][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 08:49:45.974][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 08:49:45.974][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 08:49:46.531][main][l.log4j2][INFO]:1. Connection opened. {executed in 536ms} 
+[2024-01-29 08:49:46.533][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 08:49:46.533][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 08:49:46.535][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 08:49:46.535][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 08:49:46.535][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 08:49:46.536][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 08:49:46.539][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 08:49:46.548][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@44bd4b0a
+[2024-01-29 08:49:46.553][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 08:49:46.671][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 17ms} 
+[2024-01-29 08:49:46.672][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 08:49:46.672][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 08:49:46.672][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 08:49:46.690][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 17ms} 
+[2024-01-29 08:49:46.690][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 08:49:46.691][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 08:49:46.691][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 08:49:46.705][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 14ms} 
+[2024-01-29 08:49:46.706][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 08:49:46.706][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 08:49:46.706][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 08:49:46.719][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 12ms} 
+[2024-01-29 08:49:46.720][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 08:49:46.720][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 08:49:46.720][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 08:49:46.733][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 12ms} 
+[2024-01-29 08:49:46.734][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 08:49:46.734][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 08:49:46.734][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 08:49:46.755][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 20ms} 
+[2024-01-29 08:49:46.755][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 08:49:46.756][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 08:49:46.756][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 08:49:46.775][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 19ms} 
+[2024-01-29 08:49:46.776][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 08:49:46.777][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 08:49:46.777][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 08:49:46.793][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 15ms} 
+[2024-01-29 08:49:46.794][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 08:49:46.794][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 08:49:46.795][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 08:49:46.812][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 17ms} 
+[2024-01-29 08:49:46.812][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 08:49:46.812][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 08:49:46.812][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 08:49:46.941][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 08:49:46.969][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 08:49:46.972][main][h.b.s.ServletApplication][INFO]:Started ServletApplication in 2.935 seconds (JVM running for 3.838)
+[2024-01-29 08:49:55.018][http-nio-8080-exec-2][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 08:49:55.018][http-nio-8080-exec-2][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 08:49:55.025][http-nio-8080-exec-2][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 6 ms
+[2024-01-29 08:52:42.175][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 08:52:42.177][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 1ms} 
+[2024-01-29 08:52:42.177][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 08:52:42.177][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 08:52:42.177][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 08:52:42.178][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-01-29 08:52:42.178][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 08:52:42.178][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 08:52:42.178][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 08:52:42.178][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 08:52:42.178][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 08:52:42.179][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 1ms} 
+[2024-01-29 08:52:42.179][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 08:52:42.179][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 08:52:42.179][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 08:52:42.179][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 08:52:42.179][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 08:52:42.180][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 1ms} 
+[2024-01-29 08:52:42.180][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 08:52:42.180][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 08:52:42.180][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 08:52:42.180][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 08:52:42.181][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 09:01:16.329][main][h.b.s.ServletApplication][INFO]:Starting ServletApplication on DESKTOP-5R4SPPS with PID 7676 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 09:01:16.331][main][h.b.s.ServletApplication][INFO]:The following profiles are active: local
+[2024-01-29 09:01:16.841][main][o.m.s.m.ClassPathMapperScanner][WARN]:No MyBatis mapper was found in '[hello.board.servlet]' package. Please check your configuration.
+[2024-01-29 09:01:17.200][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 09:01:17.209][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 09:01:17.210][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 09:01:17.210][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 09:01:17.427][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 09:01:17.430][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 09:01:17.431][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1059 ms
+[2024-01-29 09:01:17.577][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 09:01:17.624][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 09:01:17.675][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 09:01:17.727][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 09:01:17.727][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 09:01:18.173][main][l.log4j2][INFO]:1. Connection opened. {executed in 436ms} 
+[2024-01-29 09:01:18.174][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 09:01:18.174][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 09:01:18.175][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 09:01:18.175][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 09:01:18.176][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 09:01:18.177][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 09:01:18.181][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 09:01:18.189][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@397ef2
+[2024-01-29 09:01:18.193][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 09:01:18.303][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 17ms} 
+[2024-01-29 09:01:18.303][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 09:01:18.304][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 09:01:18.305][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 09:01:18.320][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 15ms} 
+[2024-01-29 09:01:18.321][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 09:01:18.321][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 09:01:18.321][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 09:01:18.333][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 12ms} 
+[2024-01-29 09:01:18.333][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 09:01:18.334][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 09:01:18.334][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 09:01:18.357][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 23ms} 
+[2024-01-29 09:01:18.357][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 09:01:18.357][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 09:01:18.358][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 09:01:18.367][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 9ms} 
+[2024-01-29 09:01:18.367][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 09:01:18.368][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 09:01:18.368][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 09:01:18.377][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 9ms} 
+[2024-01-29 09:01:18.378][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 09:01:18.378][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 09:01:18.378][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 09:01:18.391][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 12ms} 
+[2024-01-29 09:01:18.391][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 09:01:18.392][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 09:01:18.392][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 09:01:18.405][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 13ms} 
+[2024-01-29 09:01:18.406][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 09:01:18.406][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 09:01:18.406][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 09:01:18.423][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 17ms} 
+[2024-01-29 09:01:18.423][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 09:01:18.424][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 09:01:18.424][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 09:01:18.444][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 09:01:18.483][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 09:01:18.488][main][h.b.s.ServletApplication][INFO]:Started ServletApplication in 2.497 seconds (JVM running for 3.245)
+[2024-01-29 09:01:49.260][http-nio-8080-exec-6][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 09:01:49.260][http-nio-8080-exec-6][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 09:01:49.265][http-nio-8080-exec-6][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 5 ms
+[2024-01-29 09:10:55.716][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 09:10:55.717][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 0ms} 
+[2024-01-29 09:10:55.717][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 09:10:55.718][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 09:10:55.718][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 09:10:55.718][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-01-29 09:10:55.718][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 09:10:55.718][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 09:10:55.718][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 09:10:55.718][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 09:10:55.718][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 09:10:55.719][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 1ms} 
+[2024-01-29 09:10:55.719][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 09:10:55.719][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 09:10:55.719][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 09:10:55.719][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 09:10:55.719][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 09:10:55.720][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 09:10:55.720][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 09:10:55.720][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 09:10:55.720][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 09:10:55.720][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 09:10:55.721][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 13:30:59.449][main][h.b.s.ServletApplication][INFO]:Starting ServletApplication on DESKTOP-5R4SPPS with PID 10076 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 13:30:59.452][main][h.b.s.ServletApplication][INFO]:The following profiles are active: local
+[2024-01-29 13:31:00.053][main][o.m.s.m.ClassPathMapperScanner][WARN]:No MyBatis mapper was found in '[hello.board.servlet]' package. Please check your configuration.
+[2024-01-29 13:31:00.389][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 13:31:00.399][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 13:31:00.400][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 13:31:00.400][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 13:31:00.778][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 13:31:00.784][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 13:31:00.784][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1225 ms
+[2024-01-29 13:31:01.029][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 13:31:01.091][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 13:31:01.165][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 13:31:01.218][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 13:31:01.219][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 13:31:01.766][main][l.log4j2][INFO]:1. Connection opened. {executed in 535ms} 
+[2024-01-29 13:31:01.767][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 13:31:01.767][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 13:31:01.768][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 13:31:01.768][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 13:31:01.768][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 13:31:01.769][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 13:31:01.771][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 13:31:01.781][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@75961f16
+[2024-01-29 13:31:01.786][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 13:31:01.902][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 14ms} 
+[2024-01-29 13:31:01.902][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 13:31:01.903][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 13:31:01.903][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 13:31:01.916][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 13ms} 
+[2024-01-29 13:31:01.917][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 13:31:01.917][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 13:31:01.917][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 13:31:01.933][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 15ms} 
+[2024-01-29 13:31:01.934][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 13:31:01.934][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 13:31:01.934][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 13:31:01.947][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 13ms} 
+[2024-01-29 13:31:01.947][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 13:31:01.948][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 13:31:01.948][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 13:31:01.964][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 15ms} 
+[2024-01-29 13:31:01.964][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 13:31:01.964][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 13:31:01.964][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 13:31:01.977][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 13ms} 
+[2024-01-29 13:31:01.977][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 13:31:01.977][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 13:31:01.977][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 13:31:01.990][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 12ms} 
+[2024-01-29 13:31:01.990][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 13:31:01.991][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 13:31:01.991][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 13:31:02.006][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 15ms} 
+[2024-01-29 13:31:02.006][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 13:31:02.006][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 13:31:02.006][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 13:31:02.018][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 12ms} 
+[2024-01-29 13:31:02.018][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 13:31:02.019][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 13:31:02.019][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 13:31:02.056][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 13:31:02.073][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 13:31:02.076][main][h.b.s.ServletApplication][INFO]:Started ServletApplication in 2.983 seconds (JVM running for 3.765)
+[2024-01-29 13:31:16.311][http-nio-8080-exec-3][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 13:31:16.312][http-nio-8080-exec-3][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 13:31:16.315][http-nio-8080-exec-3][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 3 ms
+[2024-01-29 13:31:24.863][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 13:31:24.865][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 1ms} 
+[2024-01-29 13:31:24.865][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 13:31:24.865][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 13:31:24.865][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 13:31:24.866][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 1ms} 
+[2024-01-29 13:31:24.866][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 13:31:24.866][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 13:31:24.866][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 13:31:24.866][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 13:31:24.866][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 13:31:24.866][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 13:31:24.866][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 13:31:24.867][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 1ms} 
+[2024-01-29 13:31:24.867][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 13:31:24.867][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 13:31:24.867][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 13:31:24.867][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 13:31:24.867][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 13:31:24.867][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 13:31:24.867][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 13:31:24.868][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 13:31:24.868][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 13:45:30.447][main][h.b.s.ServletApplication][INFO]:Starting ServletApplication on DESKTOP-5R4SPPS with PID 23280 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 13:45:30.449][main][h.b.s.ServletApplication][INFO]:The following profiles are active: local
+[2024-01-29 13:45:30.983][main][o.m.s.m.ClassPathMapperScanner][WARN]:No MyBatis mapper was found in '[hello.board.servlet]' package. Please check your configuration.
+[2024-01-29 13:45:31.281][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 13:45:31.289][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 13:45:31.289][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 13:45:31.289][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 13:45:31.490][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 13:45:31.493][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 13:45:31.493][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1005 ms
+[2024-01-29 13:45:31.626][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 13:45:31.665][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 13:45:31.696][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 13:45:31.740][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 13:45:31.741][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 13:45:32.129][main][l.log4j2][INFO]:1. Connection opened. {executed in 376ms} 
+[2024-01-29 13:45:32.130][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 13:45:32.130][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 13:45:32.131][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 13:45:32.131][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 13:45:32.131][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 13:45:32.132][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 13:45:32.134][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 13:45:32.140][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@6c008c24
+[2024-01-29 13:45:32.144][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 13:45:32.249][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 12ms} 
+[2024-01-29 13:45:32.250][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 13:45:32.250][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 13:45:32.250][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 13:45:32.262][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 12ms} 
+[2024-01-29 13:45:32.262][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 13:45:32.263][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 13:45:32.263][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 13:45:32.286][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 21ms} 
+[2024-01-29 13:45:32.286][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 13:45:32.287][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 13:45:32.287][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 13:45:32.297][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 10ms} 
+[2024-01-29 13:45:32.297][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 13:45:32.297][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 13:45:32.298][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 13:45:32.308][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 10ms} 
+[2024-01-29 13:45:32.308][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 13:45:32.308][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 13:45:32.308][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 13:45:32.319][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 11ms} 
+[2024-01-29 13:45:32.320][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 13:45:32.320][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 13:45:32.320][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 13:45:32.335][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 15ms} 
+[2024-01-29 13:45:32.335][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 13:45:32.336][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 13:45:32.336][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 13:45:32.354][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 18ms} 
+[2024-01-29 13:45:32.354][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 13:45:32.355][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 13:45:32.355][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 13:45:32.366][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 11ms} 
+[2024-01-29 13:45:32.366][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 13:45:32.366][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 13:45:32.366][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 13:45:32.379][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 13:45:32.397][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 13:45:32.400][main][h.b.s.ServletApplication][INFO]:Started ServletApplication in 2.255 seconds (JVM running for 2.925)
+[2024-01-29 13:45:58.895][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 13:45:58.897][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 1ms} 
+[2024-01-29 13:45:58.897][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 13:45:58.897][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 13:45:58.897][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 13:45:58.898][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-01-29 13:45:58.898][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 13:45:58.898][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 13:45:58.898][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 13:45:58.898][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 13:45:58.899][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 13:45:58.899][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 13:45:58.899][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 13:45:58.899][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 13:45:58.899][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 13:45:58.900][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 1ms} 
+[2024-01-29 13:45:58.900][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 13:45:58.900][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 13:45:58.900][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 13:45:58.900][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 13:45:58.901][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 13:45:58.901][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 13:45:58.901][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 13:46:03.609][main][h.b.s.ServletApplication][INFO]:Starting ServletApplication on DESKTOP-5R4SPPS with PID 23148 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 13:46:03.612][main][h.b.s.ServletApplication][INFO]:The following profiles are active: local
+[2024-01-29 13:46:04.084][main][o.m.s.m.ClassPathMapperScanner][WARN]:No MyBatis mapper was found in '[hello.board.servlet]' package. Please check your configuration.
+[2024-01-29 13:46:04.364][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 13:46:04.369][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 13:46:04.370][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 13:46:04.370][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 13:46:04.569][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 13:46:04.574][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 13:46:04.575][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 917 ms
+[2024-01-29 13:46:04.742][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 13:46:04.807][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 13:46:04.850][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 13:46:04.890][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 13:46:04.891][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 13:46:05.283][main][l.log4j2][INFO]:1. Connection opened. {executed in 382ms} 
+[2024-01-29 13:46:05.284][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 13:46:05.284][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 13:46:05.285][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 13:46:05.285][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 13:46:05.285][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 13:46:05.286][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 13:46:05.288][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 13:46:05.294][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@20cece0b
+[2024-01-29 13:46:05.298][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 13:46:05.410][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 11ms} 
+[2024-01-29 13:46:05.410][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 13:46:05.411][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 13:46:05.411][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 13:46:05.422][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 10ms} 
+[2024-01-29 13:46:05.422][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 13:46:05.423][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 13:46:05.423][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 13:46:05.435][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 12ms} 
+[2024-01-29 13:46:05.435][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 13:46:05.435][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 13:46:05.435][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 13:46:05.449][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 14ms} 
+[2024-01-29 13:46:05.449][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 13:46:05.449][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 13:46:05.450][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 13:46:05.463][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 13ms} 
+[2024-01-29 13:46:05.464][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 13:46:05.464][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 13:46:05.464][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 13:46:05.480][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 15ms} 
+[2024-01-29 13:46:05.480][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 13:46:05.481][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 13:46:05.481][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 13:46:05.495][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 14ms} 
+[2024-01-29 13:46:05.495][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 13:46:05.495][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 13:46:05.495][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 13:46:05.507][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 10ms} 
+[2024-01-29 13:46:05.507][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 13:46:05.507][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 13:46:05.507][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 13:46:05.521][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 13ms} 
+[2024-01-29 13:46:05.521][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 13:46:05.522][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 13:46:05.522][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 13:46:05.578][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 13:46:05.607][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 13:46:05.610][main][h.b.s.ServletApplication][INFO]:Started ServletApplication in 2.333 seconds (JVM running for 3.131)
+[2024-01-29 13:46:14.722][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 13:46:14.723][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 1ms} 
+[2024-01-29 13:46:14.723][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 13:46:14.723][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 13:46:14.723][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 13:46:14.723][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-01-29 13:46:14.724][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 13:46:14.724][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 13:46:14.724][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 13:46:14.724][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 13:46:14.724][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 13:46:14.724][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 13:46:14.724][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 13:46:14.724][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 13:46:14.724][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 13:46:14.725][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 1ms} 
+[2024-01-29 13:46:14.725][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 13:46:14.725][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 13:46:14.725][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 13:46:14.725][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 13:46:14.725][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 13:46:14.725][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 13:46:14.726][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 14:02:28.205][main][h.b.s.ServletApplication][INFO]:Starting ServletApplication on DESKTOP-5R4SPPS with PID 17964 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 14:02:28.208][main][h.b.s.ServletApplication][INFO]:The following profiles are active: local
+[2024-01-29 14:02:28.783][main][o.m.s.m.ClassPathMapperScanner][WARN]:No MyBatis mapper was found in '[hello.board.servlet]' package. Please check your configuration.
+[2024-01-29 14:02:29.164][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 14:02:29.171][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 14:02:29.171][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 14:02:29.171][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 14:02:29.405][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 14:02:29.412][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 14:02:29.412][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1109 ms
+[2024-01-29 14:02:29.638][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 14:02:29.689][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 14:02:29.739][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 14:02:29.778][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 14:02:29.782][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 14:02:30.220][main][l.log4j2][INFO]:1. Connection opened. {executed in 419ms} 
+[2024-01-29 14:02:30.220][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 14:02:30.221][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 14:02:30.222][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 14:02:30.222][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 14:02:30.222][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 14:02:30.223][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 14:02:30.225][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 14:02:30.233][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@4e08acf9
+[2024-01-29 14:02:30.240][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 14:02:30.346][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 16ms} 
+[2024-01-29 14:02:30.347][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 14:02:30.349][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 14:02:30.349][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 14:02:30.364][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 14ms} 
+[2024-01-29 14:02:30.364][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 14:02:30.364][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 14:02:30.364][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 14:02:30.375][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 11ms} 
+[2024-01-29 14:02:30.376][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 14:02:30.376][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 14:02:30.376][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 14:02:30.391][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 15ms} 
+[2024-01-29 14:02:30.392][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 14:02:30.393][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 14:02:30.394][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 14:02:30.408][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 13ms} 
+[2024-01-29 14:02:30.408][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 14:02:30.408][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 14:02:30.408][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 14:02:30.417][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 9ms} 
+[2024-01-29 14:02:30.419][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 14:02:30.419][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 14:02:30.419][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 14:02:30.432][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 13ms} 
+[2024-01-29 14:02:30.432][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 14:02:30.433][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 14:02:30.433][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 14:02:30.446][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 12ms} 
+[2024-01-29 14:02:30.446][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 14:02:30.447][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 14:02:30.447][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 14:02:30.470][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 23ms} 
+[2024-01-29 14:02:30.470][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 14:02:30.470][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 14:02:30.470][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 14:02:30.504][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 14:02:30.541][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 14:02:30.543][main][h.b.s.ServletApplication][INFO]:Started ServletApplication in 2.692 seconds (JVM running for 3.509)
+[2024-01-29 14:02:44.586][http-nio-8080-exec-3][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 14:02:44.586][http-nio-8080-exec-3][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 14:02:44.591][http-nio-8080-exec-3][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 5 ms
+[2024-01-29 14:03:33.241][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 14:03:33.243][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 1ms} 
+[2024-01-29 14:03:33.244][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 14:03:33.244][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 14:03:33.244][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 14:03:33.245][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 1ms} 
+[2024-01-29 14:03:33.245][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 14:03:33.245][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 14:03:33.245][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 14:03:33.246][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 1ms} 
+[2024-01-29 14:03:33.246][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 14:03:33.246][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 14:03:33.246][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 14:03:33.247][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 1ms} 
+[2024-01-29 14:03:33.247][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 14:03:33.247][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 14:03:33.247][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 14:03:33.248][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 1ms} 
+[2024-01-29 14:03:33.248][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 14:03:33.248][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 14:03:33.248][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 14:03:33.248][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 14:03:33.250][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 14:11:37.828][background-preinit][o.h.v.m.ResourceBundleMessageInterpolator][DEBUG]:Loaded expression factory via original TCCL
+[2024-01-29 14:11:37.926][main][h.b.s.ServletApplication][INFO]:Starting ServletApplication on DESKTOP-5R4SPPS with PID 3028 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 14:11:37.926][main][h.b.s.ServletApplication][INFO]:The following profiles are active: local
+[2024-01-29 14:11:38.477][main][o.m.s.m.ClassPathMapperScanner][WARN]:No MyBatis mapper was found in '[hello.board.servlet]' package. Please check your configuration.
+[2024-01-29 14:11:38.790][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 14:11:38.806][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 14:11:38.807][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 14:11:38.807][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 14:11:39.041][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 14:11:39.047][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 14:11:39.048][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1084 ms
+[2024-01-29 14:11:39.295][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 14:11:39.384][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 14:11:39.434][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 14:11:39.473][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 14:11:39.474][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 14:11:39.932][main][l.log4j2][INFO]:1. Connection opened. {executed in 437ms} 
+[2024-01-29 14:11:39.932][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 14:11:39.933][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 14:11:39.934][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 14:11:39.934][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 14:11:39.934][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 14:11:39.934][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 14:11:39.937][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 14:11:39.943][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@612e21b9
+[2024-01-29 14:11:39.947][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 14:11:40.060][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 14ms} 
+[2024-01-29 14:11:40.060][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 14:11:40.060][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 14:11:40.061][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 14:11:40.079][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 17ms} 
+[2024-01-29 14:11:40.079][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 14:11:40.079][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 14:11:40.080][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 14:11:40.090][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 10ms} 
+[2024-01-29 14:11:40.090][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 14:11:40.090][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 14:11:40.090][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 14:11:40.105][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 14ms} 
+[2024-01-29 14:11:40.105][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 14:11:40.105][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 14:11:40.105][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 14:11:40.118][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 12ms} 
+[2024-01-29 14:11:40.118][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 14:11:40.119][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 14:11:40.119][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 14:11:40.141][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 22ms} 
+[2024-01-29 14:11:40.141][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 14:11:40.142][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 14:11:40.142][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 14:11:40.153][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 10ms} 
+[2024-01-29 14:11:40.153][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 14:11:40.153][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 14:11:40.153][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 14:11:40.164][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 11ms} 
+[2024-01-29 14:11:40.164][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 14:11:40.165][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 14:11:40.165][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 14:11:40.178][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 13ms} 
+[2024-01-29 14:11:40.179][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 14:11:40.179][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 14:11:40.180][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 14:11:40.191][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 14:11:40.216][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 14:11:40.221][main][h.b.s.ServletApplication][INFO]:Started ServletApplication in 2.634 seconds (JVM running for 3.376)
+[2024-01-29 14:15:34.034][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 14:15:34.036][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 1ms} 
+[2024-01-29 14:15:34.036][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 14:15:34.036][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 14:15:34.036][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 14:15:34.036][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-01-29 14:15:34.036][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 14:15:34.037][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 1ms} 
+[2024-01-29 14:15:34.037][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 14:15:34.037][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 14:15:34.037][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 14:15:34.037][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 14:15:34.037][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 14:15:34.037][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 14:15:34.037][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 14:15:34.038][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 14:15:34.038][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 14:15:34.038][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 14:15:34.038][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 14:15:34.038][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 14:15:34.038][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 14:15:34.038][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 14:15:34.039][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:28:27.540][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 25048 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 17:28:27.542][main][h.b.BoardApplication][INFO]:The following profiles are active: local
+[2024-01-29 17:28:28.449][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 17:28:28.458][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:28:28.458][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 17:28:28.458][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 17:28:28.674][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 17:28:28.677][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 17:28:28.678][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1087 ms
+[2024-01-29 17:28:28.789][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 17:28:28.789][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 17:28:29.194][main][l.log4j2][INFO]:1. Connection opened. {executed in 397ms} 
+[2024-01-29 17:28:29.195][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 17:28:29.195][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 17:28:29.196][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 17:28:29.196][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 17:28:29.197][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 17:28:29.198][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 17:28:29.200][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 17:28:29.205][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@7c1e32c9
+[2024-01-29 17:28:29.207][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 17:28:29.320][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 19ms} 
+[2024-01-29 17:28:29.320][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 17:28:29.321][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 17:28:29.321][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 17:28:29.337][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 15ms} 
+[2024-01-29 17:28:29.337][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 17:28:29.339][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 17:28:29.339][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 17:28:29.356][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 16ms} 
+[2024-01-29 17:28:29.356][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 17:28:29.357][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 17:28:29.357][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 17:28:29.365][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 8ms} 
+[2024-01-29 17:28:29.366][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 17:28:29.366][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 17:28:29.366][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 17:28:29.384][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 18ms} 
+[2024-01-29 17:28:29.385][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 17:28:29.385][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 17:28:29.385][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 17:28:29.400][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 14ms} 
+[2024-01-29 17:28:29.401][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 17:28:29.402][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 17:28:29.402][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 17:28:29.418][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 16ms} 
+[2024-01-29 17:28:29.418][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 17:28:29.419][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 17:28:29.419][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 17:28:29.431][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 12ms} 
+[2024-01-29 17:28:29.431][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 17:28:29.431][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 17:28:29.431][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 17:28:29.443][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:28:29.448][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 16ms} 
+[2024-01-29 17:28:29.448][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 17:28:29.449][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 17:28:29.449][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 17:28:29.498][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 17:28:29.543][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 17:28:29.655][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:28:29.674][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 17:28:29.677][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.449 seconds (JVM running for 3.333)
+[2024-01-29 17:28:35.331][http-nio-8080-exec-1][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 17:28:35.331][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 17:28:35.335][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 4 ms
+[2024-01-29 17:28:59.669][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:28:59.670][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 17:28:59.671][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 0ms} 
+[2024-01-29 17:28:59.671][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 17:28:59.671][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 17:28:59.671][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 17:28:59.671][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-01-29 17:28:59.671][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 17:28:59.672][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 17:28:59.672][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 17:28:59.672][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 17:28:59.672][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 17:28:59.672][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 17:28:59.672][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 17:28:59.673][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 1ms} 
+[2024-01-29 17:28:59.673][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 17:28:59.673][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 17:28:59.673][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 17:28:59.673][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 17:28:59.673][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 17:28:59.673][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 17:28:59.673][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 17:28:59.673][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 17:29:20.935][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 15416 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 17:29:20.938][main][h.b.BoardApplication][INFO]:The following profiles are active: local
+[2024-01-29 17:29:22.034][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 17:29:22.042][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:29:22.043][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 17:29:22.043][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 17:29:22.274][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 17:29:22.284][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 17:29:22.285][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1304 ms
+[2024-01-29 17:29:22.438][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 17:29:22.439][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 17:29:22.989][main][l.log4j2][INFO]:1. Connection opened. {executed in 536ms} 
+[2024-01-29 17:29:22.990][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 17:29:22.990][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 17:29:22.991][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 17:29:22.991][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 17:29:22.992][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 17:29:22.992][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 17:29:22.994][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 17:29:23.000][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@2d7637e6
+[2024-01-29 17:29:23.011][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 17:29:23.123][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 13ms} 
+[2024-01-29 17:29:23.123][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 17:29:23.123][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 17:29:23.124][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 17:29:23.142][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 18ms} 
+[2024-01-29 17:29:23.143][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 17:29:23.144][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 17:29:23.144][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 17:29:23.158][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 14ms} 
+[2024-01-29 17:29:23.158][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 17:29:23.159][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 17:29:23.159][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 17:29:23.184][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 25ms} 
+[2024-01-29 17:29:23.184][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 17:29:23.185][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 17:29:23.185][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 17:29:23.196][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 11ms} 
+[2024-01-29 17:29:23.196][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 17:29:23.196][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 17:29:23.196][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 17:29:23.209][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 13ms} 
+[2024-01-29 17:29:23.209][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 17:29:23.210][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 17:29:23.210][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 17:29:23.224][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 14ms} 
+[2024-01-29 17:29:23.225][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 17:29:23.225][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 17:29:23.226][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 17:29:23.257][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 31ms} 
+[2024-01-29 17:29:23.257][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 17:29:23.258][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 17:29:23.258][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 17:29:23.270][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 12ms} 
+[2024-01-29 17:29:23.270][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 17:29:23.271][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 17:29:23.271][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 17:29:23.340][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:29:23.408][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 17:29:23.470][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 17:29:23.614][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:29:23.653][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 17:29:23.655][main][h.b.BoardApplication][INFO]:Started BoardApplication in 3.127 seconds (JVM running for 4.692)
+[2024-01-29 17:29:26.586][http-nio-8080-exec-1][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 17:29:26.586][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 17:29:26.593][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 6 ms
+[2024-01-29 17:31:15.716][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:31:15.717][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 17:31:15.718][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 1ms} 
+[2024-01-29 17:31:15.718][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 17:31:15.718][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 17:31:15.718][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 17:31:15.718][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-01-29 17:31:15.718][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 17:31:15.719][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 1ms} 
+[2024-01-29 17:31:15.719][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 17:31:15.719][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 17:31:15.719][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 17:31:15.719][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 17:31:15.719][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 17:31:15.719][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 17:31:15.719][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 17:31:15.719][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 17:31:15.719][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 17:31:15.719][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 17:31:15.720][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 17:31:15.720][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 17:31:15.720][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 17:31:15.720][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 17:33:42.791][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 3764 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 17:33:42.793][main][h.b.BoardApplication][INFO]:The following profiles are active: local
+[2024-01-29 17:33:43.777][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 17:33:43.785][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:33:43.785][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 17:33:43.785][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 17:33:44.024][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 17:33:44.030][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 17:33:44.030][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1152 ms
+[2024-01-29 17:33:44.176][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 17:33:44.177][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 17:33:44.671][main][l.log4j2][INFO]:1. Connection opened. {executed in 469ms} 
+[2024-01-29 17:33:44.672][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 17:33:44.672][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 17:33:44.674][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 17:33:44.675][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 17:33:44.676][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 17:33:44.677][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 17:33:44.680][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 17:33:44.690][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@35bfa1bb
+[2024-01-29 17:33:44.696][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 17:33:44.811][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 20ms} 
+[2024-01-29 17:33:44.811][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 17:33:44.813][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 17:33:44.813][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 17:33:44.826][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 12ms} 
+[2024-01-29 17:33:44.827][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 17:33:44.827][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 17:33:44.827][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 17:33:44.840][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 13ms} 
+[2024-01-29 17:33:44.840][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 17:33:44.841][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 17:33:44.841][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 17:33:44.858][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 16ms} 
+[2024-01-29 17:33:44.858][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 17:33:44.860][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 17:33:44.860][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 17:33:44.876][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 16ms} 
+[2024-01-29 17:33:44.876][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 17:33:44.877][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 17:33:44.877][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 17:33:44.887][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 10ms} 
+[2024-01-29 17:33:44.887][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 17:33:44.888][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 17:33:44.888][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 17:33:44.911][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 23ms} 
+[2024-01-29 17:33:44.911][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 17:33:44.912][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 17:33:44.912][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 17:33:44.930][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 17ms} 
+[2024-01-29 17:33:44.931][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 17:33:44.931][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 17:33:44.931][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 17:33:44.942][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 11ms} 
+[2024-01-29 17:33:44.942][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 17:33:44.943][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 17:33:44.943][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 17:33:44.974][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:33:45.028][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 17:33:45.074][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 17:33:45.207][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:33:45.240][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 17:33:45.245][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.841 seconds (JVM running for 3.764)
+[2024-01-29 17:33:46.609][http-nio-8080-exec-1][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 17:33:46.609][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 17:33:46.613][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 4 ms
+[2024-01-29 17:34:37.358][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:34:37.359][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 17:34:37.360][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 0ms} 
+[2024-01-29 17:34:37.360][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 17:34:37.360][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 17:34:37.361][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 17:34:37.361][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-01-29 17:34:37.361][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 17:34:37.361][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 17:34:37.361][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 17:34:37.361][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 17:34:37.361][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 17:34:37.361][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 17:34:37.361][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 17:34:37.361][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 17:34:37.361][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 17:34:37.362][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 17:34:37.362][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 17:34:37.362][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 17:34:37.362][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 17:34:37.362][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 17:34:37.362][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 17:34:37.362][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 17:37:56.614][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 14316 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 17:37:56.617][main][h.b.BoardApplication][INFO]:The following profiles are active: local
+[2024-01-29 17:37:57.672][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 17:37:57.680][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:37:57.680][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 17:37:57.680][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 17:37:57.916][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 17:37:57.920][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 17:37:57.921][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1265 ms
+[2024-01-29 17:37:58.061][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 17:37:58.062][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 17:37:58.485][main][l.log4j2][INFO]:1. Connection opened. {executed in 408ms} 
+[2024-01-29 17:37:58.485][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 17:37:58.486][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 17:37:58.488][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 17:37:58.488][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 17:37:58.489][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 17:37:58.490][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 17:37:58.493][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 17:37:58.502][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@74b86971
+[2024-01-29 17:37:58.509][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 17:37:58.624][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 15ms} 
+[2024-01-29 17:37:58.624][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 17:37:58.624][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 17:37:58.624][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 17:37:58.637][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 12ms} 
+[2024-01-29 17:37:58.637][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 17:37:58.637][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 17:37:58.638][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 17:37:58.656][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 18ms} 
+[2024-01-29 17:37:58.657][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 17:37:58.658][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 17:37:58.658][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 17:37:58.670][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 11ms} 
+[2024-01-29 17:37:58.670][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 17:37:58.670][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 17:37:58.670][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 17:37:58.680][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 10ms} 
+[2024-01-29 17:37:58.680][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 17:37:58.680][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 17:37:58.680][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 17:37:58.694][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 13ms} 
+[2024-01-29 17:37:58.694][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 17:37:58.695][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 17:37:58.695][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 17:37:58.717][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 22ms} 
+[2024-01-29 17:37:58.718][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 17:37:58.718][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 17:37:58.718][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 17:37:58.730][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 12ms} 
+[2024-01-29 17:37:58.730][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 17:37:58.731][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 17:37:58.731][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 17:37:58.745][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 14ms} 
+[2024-01-29 17:37:58.745][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 17:37:58.745][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 17:37:58.745][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 17:37:58.788][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:37:58.852][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 17:37:58.915][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 17:37:59.044][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:37:59.066][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 17:37:59.071][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.877 seconds (JVM running for 3.754)
+[2024-01-29 17:38:03.451][http-nio-8080-exec-1][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 17:38:03.452][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 17:38:03.456][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 4 ms
+[2024-01-29 17:38:03.499][http-nio-8080-exec-1][o.s.w.s.m.s.DefaultHandlerExceptionResolver][WARN]:Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=boundary;charset=UTF-8' not supported]
+[2024-01-29 17:39:17.649][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:39:17.649][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 17:39:17.650][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 0ms} 
+[2024-01-29 17:39:17.650][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 17:39:17.650][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 17:39:17.650][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 17:39:17.651][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-01-29 17:39:17.651][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 17:39:17.651][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 17:39:17.651][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 17:39:17.652][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 17:39:17.652][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 17:39:17.652][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 17:39:17.652][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 17:39:17.652][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 17:39:17.652][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 17:39:17.652][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 17:39:17.652][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 17:39:17.652][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 17:39:17.652][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 17:39:17.653][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 1ms} 
+[2024-01-29 17:39:17.653][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 17:39:17.653][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 17:39:25.554][background-preinit][o.h.v.m.ResourceBundleMessageInterpolator][DEBUG]:Loaded expression factory via original TCCL
+[2024-01-29 17:39:25.639][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 20996 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 17:39:25.639][main][h.b.BoardApplication][INFO]:The following profiles are active: local
+[2024-01-29 17:39:26.650][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 17:39:26.657][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:39:26.658][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 17:39:26.658][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 17:39:26.890][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 17:39:26.897][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 17:39:26.901][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1191 ms
+[2024-01-29 17:39:27.056][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 17:39:27.057][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 17:39:27.492][main][l.log4j2][INFO]:1. Connection opened. {executed in 423ms} 
+[2024-01-29 17:39:27.493][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 17:39:27.493][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 17:39:27.495][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 17:39:27.495][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 17:39:27.495][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 17:39:27.496][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 17:39:27.498][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 17:39:27.504][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@4b55ff0a
+[2024-01-29 17:39:27.508][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 17:39:27.622][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 22ms} 
+[2024-01-29 17:39:27.623][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 17:39:27.624][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 17:39:27.624][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 17:39:27.637][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 12ms} 
+[2024-01-29 17:39:27.637][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 17:39:27.637][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 17:39:27.637][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 17:39:27.651][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 13ms} 
+[2024-01-29 17:39:27.652][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 17:39:27.652][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 17:39:27.652][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 17:39:27.668][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 15ms} 
+[2024-01-29 17:39:27.669][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 17:39:27.669][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 17:39:27.669][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 17:39:27.689][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 20ms} 
+[2024-01-29 17:39:27.689][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 17:39:27.690][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 17:39:27.690][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 17:39:27.702][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 12ms} 
+[2024-01-29 17:39:27.703][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 17:39:27.703][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 17:39:27.703][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 17:39:27.720][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 17ms} 
+[2024-01-29 17:39:27.720][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 17:39:27.721][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 17:39:27.721][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 17:39:27.736][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 15ms} 
+[2024-01-29 17:39:27.736][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 17:39:27.737][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 17:39:27.737][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 17:39:27.760][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 22ms} 
+[2024-01-29 17:39:27.760][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 17:39:27.761][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 17:39:27.761][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 17:39:27.795][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:39:27.854][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 17:39:27.902][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 17:39:28.032][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:39:28.056][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 17:39:28.060][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.843 seconds (JVM running for 3.82)
+[2024-01-29 17:40:40.772][http-nio-8080-exec-2][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 17:40:40.772][http-nio-8080-exec-2][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 17:40:40.776][http-nio-8080-exec-2][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 4 ms
+[2024-01-29 17:41:20.432][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:41:20.432][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 17:41:20.433][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 0ms} 
+[2024-01-29 17:41:20.433][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 17:41:20.434][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 17:41:20.434][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 17:41:20.434][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-01-29 17:41:20.434][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 17:41:20.434][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 17:41:20.434][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 17:41:20.434][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 17:41:20.435][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 17:41:20.435][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 17:41:20.435][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 17:41:20.435][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 17:41:20.435][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 17:41:20.435][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 17:41:20.435][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 17:41:20.435][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 17:41:20.436][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 17:41:20.436][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 17:41:20.436][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 17:41:20.436][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 17:41:27.865][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 25480 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 17:41:27.868][main][h.b.BoardApplication][INFO]:The following profiles are active: local
+[2024-01-29 17:41:28.834][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 17:41:28.843][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:41:28.844][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 17:41:28.844][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 17:41:29.048][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 17:41:29.053][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 17:41:29.054][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1094 ms
+[2024-01-29 17:41:29.203][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 17:41:29.204][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 17:41:29.623][main][l.log4j2][INFO]:1. Connection opened. {executed in 407ms} 
+[2024-01-29 17:41:29.624][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 17:41:29.624][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 17:41:29.626][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 17:41:29.626][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 17:41:29.626][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 17:41:29.627][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 17:41:29.629][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 17:41:29.639][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@52ca2652
+[2024-01-29 17:41:29.644][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 17:41:29.764][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 22ms} 
+[2024-01-29 17:41:29.764][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 17:41:29.765][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 17:41:29.765][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 17:41:29.777][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 12ms} 
+[2024-01-29 17:41:29.777][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 17:41:29.777][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 17:41:29.777][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 17:41:29.793][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 14ms} 
+[2024-01-29 17:41:29.794][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 17:41:29.796][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 17:41:29.797][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 17:41:29.810][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 12ms} 
+[2024-01-29 17:41:29.810][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 17:41:29.811][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 17:41:29.811][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 17:41:29.819][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 8ms} 
+[2024-01-29 17:41:29.819][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 17:41:29.820][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 17:41:29.820][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 17:41:29.834][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 14ms} 
+[2024-01-29 17:41:29.834][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 17:41:29.835][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 17:41:29.836][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 17:41:29.859][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 23ms} 
+[2024-01-29 17:41:29.860][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 17:41:29.860][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 17:41:29.860][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 17:41:29.871][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 11ms} 
+[2024-01-29 17:41:29.872][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 17:41:29.872][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 17:41:29.872][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 17:41:29.892][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 20ms} 
+[2024-01-29 17:41:29.893][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 17:41:29.895][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 17:41:29.896][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 17:41:29.920][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:41:29.983][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 17:41:30.025][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 17:41:30.158][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:41:30.178][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 17:41:30.180][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.698 seconds (JVM running for 3.535)
+[2024-01-29 17:41:33.770][http-nio-8080-exec-1][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 17:41:33.770][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 17:41:33.775][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 4 ms
+[2024-01-29 17:41:58.096][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:constructor 호출
+[2024-01-29 17:41:58.106][http-nio-8080-exec-1][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 17:41:58.107][http-nio-8080-exec-1][l.log4j2][INFO]:1. Connection.isValid(5) returned true
+[2024-01-29 17:41:58.107][http-nio-8080-exec-1][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 17:41:58.128][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.new PreparedStatement returned 
+[2024-01-29 17:41:58.129][http-nio-8080-exec-1][l.log4j2][INFO]:1. Connection.prepareStatement(INSERT INTO member(name, age, grade, image_name, team_id)
+        VALUES (?, ?, ?, ?, ?);, 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@65595512
+[2024-01-29 17:41:58.131][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getName() 호출
+[2024-01-29 17:41:58.131][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.setString(1, "Hello") returned 
+[2024-01-29 17:41:58.131][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getAge() 호출
+[2024-01-29 17:41:58.131][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.setInt(2, 20) returned 
+[2024-01-29 17:41:58.131][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getGrade() 호출
+[2024-01-29 17:41:58.131][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.setString(3, "IRON") returned 
+[2024-01-29 17:41:58.131][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getImageName() 호출
+[2024-01-29 17:41:58.131][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.setString(4, "images") returned 
+[2024-01-29 17:41:58.131][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getTeamId() 호출
+[2024-01-29 17:41:58.131][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.setNull(5, 1111) returned 
+[2024-01-29 17:41:58.140][http-nio-8080-exec-1][l.log4j2][INFO]:1. INSERT INTO member(name, age, grade, image_name, team_id) VALUES ('Hello', 20, 'IRON', 'images', 
+NULL);  {executed in 8 ms}
+[2024-01-29 17:41:58.140][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.execute() returned false
+[2024-01-29 17:41:58.140][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.getUpdateCount() returned 1
+[2024-01-29 17:41:58.147][http-nio-8080-exec-1][l.log4j2][INFO]:1. getGeneratedKeys on query: INSERT INTO member(name, age, grade, image_name, team_id) VALUES 
+('Hello', 20, 'IRON', 'images', NULL);  {executed in 6 ms}
+[2024-01-29 17:41:58.148][http-nio-8080-exec-1][l.log4j2][INFO]:1. ResultSet.new ResultSet returned 
+[2024-01-29 17:41:58.149][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@718bc00b
+[2024-01-29 17:41:58.151][http-nio-8080-exec-1][l.log4j2][INFO]:1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@f4ee0cd - Field level information: 
+	com.mysql.cj.result.Field@74a87f43[dbName=null,tableName=,originalTableName=null,columnName=GENERATED_KEY,originalColumnName=null,mysqlType=-1(FIELD_TYPE_BIGINT UNSIGNED),sqlType=-5,flags= UNSIGNED, charsetIndex=0, charsetName=US-ASCII]
+[2024-01-29 17:41:58.152][http-nio-8080-exec-1][l.log4j2][INFO]:1. ResultSet.next() returned true
+[2024-01-29 17:41:58.152][http-nio-8080-exec-1][l.log4j2][INFO]:1. ResultSet.getLong(1) returned 11
+[2024-01-29 17:41:58.155][http-nio-8080-exec-1][l.log4j2][INFO]:
+|--------------|
+|generated_key |
+|--------------|
+|11            |
+|--------------|
+
+[2024-01-29 17:41:58.155][http-nio-8080-exec-1][l.log4j2][INFO]:1. ResultSet.next() returned false
+[2024-01-29 17:41:58.155][http-nio-8080-exec-1][l.log4j2][INFO]:1. ResultSet.close() returned void
+[2024-01-29 17:41:58.155][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.close() returned 
+[2024-01-29 17:41:58.155][http-nio-8080-exec-1][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 17:44:01.709][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:44:01.710][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 17:44:01.711][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 1ms} 
+[2024-01-29 17:44:01.711][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 17:44:01.711][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 17:44:01.711][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 17:44:01.711][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-01-29 17:44:01.711][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 17:44:01.712][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 1ms} 
+[2024-01-29 17:44:01.712][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 17:44:01.712][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 17:44:01.712][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 17:44:01.712][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 17:44:01.712][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 17:44:01.713][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 17:44:01.713][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 17:44:01.713][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 17:44:01.713][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 17:44:01.713][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 17:44:01.713][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 17:44:01.713][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 17:44:01.713][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 17:44:01.713][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 17:44:08.549][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 9604 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 17:44:08.552][main][h.b.BoardApplication][INFO]:The following profiles are active: local
+[2024-01-29 17:44:09.591][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 17:44:09.598][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:44:09.599][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 17:44:09.599][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 17:44:09.813][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 17:44:09.818][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 17:44:09.818][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1175 ms
+[2024-01-29 17:44:09.958][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 17:44:09.959][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 17:44:10.396][main][l.log4j2][INFO]:1. Connection opened. {executed in 426ms} 
+[2024-01-29 17:44:10.397][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 17:44:10.397][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 17:44:10.398][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 17:44:10.398][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 17:44:10.399][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 17:44:10.399][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 17:44:10.402][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 17:44:10.409][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@40ce9049
+[2024-01-29 17:44:10.414][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 17:44:10.522][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 15ms} 
+[2024-01-29 17:44:10.522][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 17:44:10.523][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 17:44:10.523][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 17:44:10.533][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 10ms} 
+[2024-01-29 17:44:10.533][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 17:44:10.534][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 17:44:10.534][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 17:44:10.558][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 23ms} 
+[2024-01-29 17:44:10.558][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 17:44:10.558][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 17:44:10.558][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 17:44:10.568][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 9ms} 
+[2024-01-29 17:44:10.568][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 17:44:10.569][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 17:44:10.569][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 17:44:10.582][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 13ms} 
+[2024-01-29 17:44:10.582][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 17:44:10.582][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 17:44:10.582][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 17:44:10.605][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 23ms} 
+[2024-01-29 17:44:10.606][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 17:44:10.607][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 17:44:10.607][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 17:44:10.634][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 26ms} 
+[2024-01-29 17:44:10.634][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 17:44:10.635][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 17:44:10.635][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 17:44:10.647][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 12ms} 
+[2024-01-29 17:44:10.647][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 17:44:10.648][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 17:44:10.649][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 17:44:10.670][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 21ms} 
+[2024-01-29 17:44:10.671][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 17:44:10.672][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 17:44:10.672][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 17:44:10.724][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:44:10.786][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 17:44:10.846][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 17:44:10.958][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:44:10.985][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 17:44:10.988][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.859 seconds (JVM running for 3.859)
+[2024-01-29 17:44:21.808][http-nio-8080-exec-1][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 17:44:21.808][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 17:44:21.813][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 4 ms
+[2024-01-29 17:45:05.745][http-nio-8080-exec-1][o.a.c.c.C.[.[.[.[dispatcherServlet]][ERROR]:Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException] with root cause
+java.lang.IllegalArgumentException: null
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at hello.board.domain.member.Grade.findByValue(Grade.java:31)
+	at hello.board.controller.member.MemberController.create(MemberController.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2024-01-29 17:45:05.756][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:45:05.756][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 17:45:05.758][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 1ms} 
+[2024-01-29 17:45:05.758][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-01-29 17:45:05.758][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 17:45:05.758][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 17:45:05.759][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 1ms} 
+[2024-01-29 17:45:05.759][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 17:45:05.759][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 17:45:05.759][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 17:45:05.759][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-01-29 17:45:05.759][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 17:45:05.760][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 17:45:05.760][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 17:45:05.760][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 17:45:05.760][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 17:45:05.760][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 17:45:05.761][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 17:45:05.761][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 17:45:05.761][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 17:45:05.761][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 17:45:05.761][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 17:45:05.761][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 17:45:33.341][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 14292 (C:\Users\seungwon\Desktop\mybatis_practice\target\classes started by seungwon in C:\Users\seungwon\Desktop\mybatis_practice)
+[2024-01-29 17:45:33.343][main][h.b.BoardApplication][INFO]:The following profiles are active: local
+[2024-01-29 17:45:34.380][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-01-29 17:45:34.389][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:45:34.390][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-01-29 17:45:34.390][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-01-29 17:45:34.619][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-01-29 17:45:34.625][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-01-29 17:45:34.626][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1207 ms
+[2024-01-29 17:45:34.757][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 17:45:34.758][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-01-29 17:45:35.258][main][l.log4j2][INFO]:1. Connection opened. {executed in 489ms} 
+[2024-01-29 17:45:35.259][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-01-29 17:45:35.259][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-01-29 17:45:35.260][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-01-29 17:45:35.261][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 17:45:35.261][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-01-29 17:45:35.262][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-01-29 17:45:35.265][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-01-29 17:45:35.272][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@6b321262
+[2024-01-29 17:45:35.275][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-01-29 17:45:35.382][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 13ms} 
+[2024-01-29 17:45:35.382][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-01-29 17:45:35.382][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-01-29 17:45:35.382][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-01-29 17:45:35.396][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 14ms} 
+[2024-01-29 17:45:35.397][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-01-29 17:45:35.397][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-01-29 17:45:35.398][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-01-29 17:45:35.410][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 12ms} 
+[2024-01-29 17:45:35.410][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-01-29 17:45:35.410][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-01-29 17:45:35.410][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-01-29 17:45:35.421][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 10ms} 
+[2024-01-29 17:45:35.421][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-01-29 17:45:35.422][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-01-29 17:45:35.422][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-01-29 17:45:35.440][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 18ms} 
+[2024-01-29 17:45:35.441][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-01-29 17:45:35.443][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-01-29 17:45:35.443][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-01-29 17:45:35.455][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 12ms} 
+[2024-01-29 17:45:35.456][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-01-29 17:45:35.456][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-01-29 17:45:35.456][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-01-29 17:45:35.468][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 12ms} 
+[2024-01-29 17:45:35.469][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-01-29 17:45:35.470][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-01-29 17:45:35.470][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-01-29 17:45:35.482][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 12ms} 
+[2024-01-29 17:45:35.482][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-01-29 17:45:35.483][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-01-29 17:45:35.483][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-01-29 17:45:35.504][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 21ms} 
+[2024-01-29 17:45:35.505][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-01-29 17:45:35.506][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-01-29 17:45:35.507][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-01-29 17:45:35.544][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:45:35.604][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-01-29 17:45:35.649][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-01-29 17:45:35.770][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-01-29 17:45:35.802][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-01-29 17:45:35.804][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.858 seconds (JVM running for 3.747)
+[2024-01-29 17:45:41.032][http-nio-8080-exec-1][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-01-29 17:45:41.033][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-01-29 17:45:41.037][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 4 ms
+[2024-01-29 17:46:02.291][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:constructor 호출
+[2024-01-29 17:46:02.406][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getId() 호출
+[2024-01-29 17:46:02.406][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getName() 호출
+[2024-01-29 17:46:02.406][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getAge() 호출
+[2024-01-29 17:46:02.406][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getGrade() 호출
+[2024-01-29 17:46:02.406][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getImageName() 호출
+[2024-01-29 17:46:02.406][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getTeamId() 호출
+[2024-01-29 17:46:06.113][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getId() 호출
+[2024-01-29 17:46:06.113][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getName() 호출
+[2024-01-29 17:46:06.113][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getAge() 호출
+[2024-01-29 17:46:06.113][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getGrade() 호출
+[2024-01-29 17:46:06.113][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getImageName() 호출
+[2024-01-29 17:46:06.113][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getTeamId() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getId() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getName() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getAge() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getGrade() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getImageName() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getTeamId() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getId() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getName() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getAge() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getGrade() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getImageName() 호출
+[2024-01-29 17:46:06.173][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getTeamId() 호출
+[2024-01-29 17:46:10.064][http-nio-8080-exec-1][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 17:46:10.065][http-nio-8080-exec-1][l.log4j2][INFO]:1. Connection.isValid(5) returned true
+[2024-01-29 17:46:10.065][http-nio-8080-exec-1][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-01-29 17:46:10.075][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-01-29 17:46:10.075][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-01-29 17:46:10.076][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.new PreparedStatement returned 
+[2024-01-29 17:46:10.076][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-01-29 17:46:10.076][http-nio-8080-exec-1][l.log4j2][INFO]:1. Connection.prepareStatement(INSERT INTO member(name, age, grade, image_name, team_id)
+        VALUES (?, ?, ?, ?, ?);, 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1d8bd269
+[2024-01-29 17:46:10.076][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-01-29 17:46:10.076][SpringContextShutdownHook][l.log4j2][INFO]:1. Connection aborted. {executed in 0ms} 
+[2024-01-29 17:46:10.077][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 1ms} 
+[2024-01-29 17:46:10.077][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-01-29 17:46:10.077][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-01-29 17:46:10.077][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 1ms} 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 0ms} 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-01-29 17:46:10.078][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-01-29 17:46:10.078][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-01-29 17:46:10.078][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getName() 호출
+[2024-01-29 17:46:10.078][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.setString(1, "Hello") returned 
+[2024-01-29 17:46:10.078][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getAge() 호출
+[2024-01-29 17:46:10.080][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.setInt(2, 20) returned 
+[2024-01-29 17:46:10.080][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getGrade() 호출
+[2024-01-29 17:46:10.080][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.setString(3, "IRON") returned 
+[2024-01-29 17:46:10.080][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getImageName() 호출
+[2024-01-29 17:46:10.080][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.setString(4, "images") returned 
+[2024-01-29 17:46:10.080][http-nio-8080-exec-1][h.b.d.m.Member][INFO]:getTeamId() 호출
+[2024-01-29 17:46:10.080][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.setNull(5, 1111) returned 
+[2024-01-29 17:46:10.085][http-nio-8080-exec-1][l.log4j2][ERROR]:1. PreparedStatement.execute() FAILED! INSERT INTO member(name, age, grade, image_name, team_id) VALUES ('Hello', 20, 'IRON', 'images', 
+NULL);  {FAILED after 3 ms}
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 15 milliseconds ago. The last packet sent successfully to the server was 16 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy75.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy76.create(Unknown Source)
+	at hello.board.service.member.MemberService.saveMember(MemberService.java:22)
+	at hello.board.controller.member.MemberController.create(MemberController.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 15 milliseconds ago. The last packet sent successfully to the server was 16 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.clearInputStream(NativeProtocol.java:808)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:623)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:941)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1075)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+	... 73 common frames omitted
+Caused by: java.io.IOException: Socket is closed
+	at com.mysql.cj.protocol.AbstractSocketConnection.getMysqlInput(AbstractSocketConnection.java:72)
+	at com.mysql.cj.protocol.a.NativeProtocol.clearInputStream(NativeProtocol.java:804)
+	... 77 common frames omitted
+[2024-01-29 17:46:10.085][http-nio-8080-exec-1][c.z.h.p.ProxyConnection][WARN]:HikariPool-1 - Connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@ee8962e marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 15 milliseconds ago. The last packet sent successfully to the server was 16 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy75.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy76.create(Unknown Source)
+	at hello.board.service.member.MemberService.saveMember(MemberService.java:22)
+	at hello.board.controller.member.MemberController.create(MemberController.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 15 milliseconds ago. The last packet sent successfully to the server was 16 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.clearInputStream(NativeProtocol.java:808)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:623)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:941)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1075)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+	... 73 common frames omitted
+Caused by: java.io.IOException: Socket is closed
+	at com.mysql.cj.protocol.AbstractSocketConnection.getMysqlInput(AbstractSocketConnection.java:72)
+	at com.mysql.cj.protocol.a.NativeProtocol.clearInputStream(NativeProtocol.java:804)
+	... 77 common frames omitted
+[2024-01-29 17:46:10.086][http-nio-8080-exec-1][l.log4j2][INFO]:1. PreparedStatement.close() returned 
+[2024-01-29 17:46:10.124][http-nio-8080-exec-1][o.s.j.s.SQLErrorCodesFactory][DEBUG]:Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@39f0c343]
+[2024-01-29 17:46:10.126][http-nio-8080-exec-1][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-01-29 17:46:10.127][http-nio-8080-exec-1][o.s.j.s.SQLErrorCodesFactory][WARN]:Error while extracting database name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:345)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:373)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:215)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:137)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:100)
+	at org.mybatis.spring.MyBatisExceptionTranslator.initExceptionTranslator(MyBatisExceptionTranslator.java:88)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy75.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy76.create(Unknown Source)
+	at hello.board.service.member.MemberService.saveMember(MemberService.java:22)
+	at hello.board.controller.member.MemberController.create(MemberController.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:336)
+	... 64 common frames omitted
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:96)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 65 common frames omitted
+[2024-01-29 17:46:10.128][http-nio-8080-exec-1][o.s.j.s.SQLErrorCodeSQLExceptionTranslator][DEBUG]:Unable to translate SQLException with Error code '0', will now try the fallback translator
