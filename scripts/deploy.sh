@@ -4,7 +4,7 @@ REPOSITORY=/home/ubuntu/cicdTest
 cd $REPOSITORY
 
 APP_NAME=cicdtest
-JAR_NAME=$(ls $REPOSITORY/target/ | grep 'SNAPSHOT.jar' | tail -n 1)
+JAR_NAME=$(ls $REPOSITORY/target/ | grep 'jar' | tail -n 1)
 JAR_PATH=$REPOSITORY/target/$JAR_NAME
 
 echo "JAR_NAME: $JAR_NAME"
