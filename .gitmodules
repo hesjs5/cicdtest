@@ -1,4 +1,0 @@
-[submodule "src/main/resources"]
-	path = src/main/resources
-	url = https://github.com/hesjs5/sub-repository.git
-	branch = main
