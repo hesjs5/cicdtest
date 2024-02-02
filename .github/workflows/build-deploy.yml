@@ -12,7 +12,7 @@ on:
 #   CODE_DEPLOY_APP_NAME: skyware_toy_project_cicd
 #   DEPLOYMENT_GROUP_NAME: skyware_toy_project_instance
 
-# jobs:
+jobs:
 #   deploy:
 #     runs-on: ubuntu-latest
 #     steps:
