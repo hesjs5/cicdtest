@@ -88,3 +88,1195 @@
 [2024-01-30 09:00:53.965][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 1ms} 
 [2024-01-30 09:00:53.965][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
 [2024-01-30 09:00:53.965][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-02-05 10:13:47.448][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 2408 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 10:13:47.452][main][h.b.BoardApplication][INFO]:No active profile set, falling back to default profiles: default
+[2024-02-05 10:13:48.792][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 10:13:48.800][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:13:48.800][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 10:13:48.800][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 10:13:49.024][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 10:13:49.030][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 10:13:49.031][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1496 ms
+[2024-02-05 10:13:49.096][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 10:13:49.098][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 10:13:49.112][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 10:13:49.117][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 10:17:46.748][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 10684 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 10:17:46.750][main][h.b.BoardApplication][INFO]:No active profile set, falling back to default profiles: default
+[2024-02-05 10:17:47.808][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 10:17:47.822][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:17:47.823][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 10:17:47.823][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 10:17:48.052][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 10:17:48.055][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 10:17:48.055][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1225 ms
+[2024-02-05 10:17:48.133][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 10:17:48.135][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 10:17:48.159][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 10:17:48.166][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 10:19:59.279][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 10960 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 10:19:59.283][main][h.b.BoardApplication][INFO]:No active profile set, falling back to default profiles: default
+[2024-02-05 10:20:00.512][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 10:20:00.520][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:20:00.521][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 10:20:00.521][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 10:20:00.926][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 10:20:00.931][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 10:20:00.931][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1562 ms
+[2024-02-05 10:20:01.035][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 10:20:01.039][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 10:20:01.068][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 10:20:01.078][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 10:24:25.065][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 10148 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 10:24:25.071][main][h.b.BoardApplication][INFO]:No active profile set, falling back to default profiles: default
+[2024-02-05 10:24:26.246][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 10:24:26.257][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:24:26.258][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 10:24:26.258][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 10:24:26.601][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 10:24:26.611][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 10:24:26.612][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1453 ms
+[2024-02-05 10:24:26.698][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 10:24:26.701][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 10:24:26.721][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 10:24:26.727][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 10:26:47.007][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 18604 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 10:26:47.010][main][h.b.BoardApplication][INFO]:No active profile set, falling back to default profiles: default
+[2024-02-05 10:26:48.233][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 10:26:48.241][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:26:48.242][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 10:26:48.242][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 10:26:48.494][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 10:26:48.497][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 10:26:48.498][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1414 ms
+[2024-02-05 10:26:48.576][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 10:26:48.578][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 10:26:48.594][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 10:26:48.607][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 10:27:27.970][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 2728 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 10:27:27.973][main][h.b.BoardApplication][INFO]:No active profile set, falling back to default profiles: default
+[2024-02-05 10:27:29.016][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 10:27:29.028][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:27:29.029][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 10:27:29.029][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 10:27:29.249][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 10:27:29.252][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 10:27:29.252][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1208 ms
+[2024-02-05 10:27:29.323][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 10:27:29.325][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 10:27:29.337][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 10:27:29.340][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 10:33:51.746][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 16616 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 10:33:51.749][main][h.b.BoardApplication][INFO]:No active profile set, falling back to default profiles: default
+[2024-02-05 10:33:52.694][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 10:33:52.705][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:33:52.705][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 10:33:52.705][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 10:33:52.909][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 10:33:52.914][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 10:33:52.914][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1095 ms
+[2024-02-05 10:33:52.985][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 10:33:52.987][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 10:33:53.004][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 10:33:53.008][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 10:36:00.541][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 2556 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 10:36:00.544][main][h.b.BoardApplication][INFO]:No active profile set, falling back to default profiles: default
+[2024-02-05 10:36:01.600][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 10:36:01.615][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:36:01.615][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 10:36:01.615][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 10:36:01.859][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 10:36:01.863][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 10:36:01.863][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1245 ms
+[2024-02-05 10:36:01.971][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 10:36:01.973][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 10:36:01.990][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 10:36:01.995][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 10:38:58.862][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 1652 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 10:38:58.866][main][h.b.BoardApplication][INFO]:No active profile set, falling back to default profiles: default
+[2024-02-05 10:38:59.941][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 10:38:59.953][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:38:59.954][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 10:38:59.954][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 10:39:00.178][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 10:39:00.181][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 10:39:00.181][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1237 ms
+[2024-02-05 10:39:00.244][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 10:39:00.247][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 10:39:00.262][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 10:39:00.267][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 10:47:43.098][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 16808 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 10:47:43.101][main][h.b.BoardApplication][INFO]:No active profile set, falling back to default profiles: default
+[2024-02-05 10:47:44.151][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 10:47:44.157][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:47:44.157][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 10:47:44.157][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 10:47:44.411][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 10:47:44.416][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 10:47:44.417][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1253 ms
+[2024-02-05 10:47:44.496][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 10:47:44.500][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 10:47:44.522][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 10:47:44.525][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 10:50:36.728][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 6680 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 10:50:36.731][main][h.b.BoardApplication][INFO]:The following profiles are active: local
+[2024-02-05 10:50:37.794][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 10:50:37.817][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:50:37.818][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 10:50:37.818][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 10:50:38.066][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 10:50:38.075][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 10:50:38.075][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1281 ms
+[2024-02-05 10:50:38.249][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-02-05 10:50:38.250][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-02-05 10:50:38.758][main][l.log4j2][INFO]:1. Connection opened. {executed in 496ms} 
+[2024-02-05 10:50:38.758][main][l.log4j2][INFO]:1. Connection.new Connection returned 
+[2024-02-05 10:50:38.758][main][l.log4j2][INFO]:1. Connection.getNetworkTimeout() returned 0
+[2024-02-05 10:50:38.759][main][l.log4j2][INFO]:1. Connection.isReadOnly() returned false
+[2024-02-05 10:50:38.759][main][l.log4j2][INFO]:1. Connection.getAutoCommit() returned true
+[2024-02-05 10:50:38.760][main][l.log4j2][INFO]:1. Connection.isValid(1) returned true
+[2024-02-05 10:50:38.761][main][l.log4j2][INFO]:1. Connection.getTransactionIsolation() returned 4
+[2024-02-05 10:50:38.764][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Start completed.
+[2024-02-05 10:50:38.770][main][l.log4j2][INFO]:1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@6b8280e6
+[2024-02-05 10:50:38.775][main][l.log4j2][INFO]:1. Connection.clearWarnings() returned 
+[2024-02-05 10:50:38.884][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection opened. {executed in 15ms} 
+[2024-02-05 10:50:38.885][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.new Connection returned 
+[2024-02-05 10:50:38.887][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.isReadOnly() returned false
+[2024-02-05 10:50:38.887][HikariPool-1 connection adder][l.log4j2][INFO]:2. Connection.getAutoCommit() returned true
+[2024-02-05 10:50:38.916][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection opened. {executed in 27ms} 
+[2024-02-05 10:50:38.916][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.new Connection returned 
+[2024-02-05 10:50:38.916][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.isReadOnly() returned false
+[2024-02-05 10:50:38.916][HikariPool-1 connection adder][l.log4j2][INFO]:3. Connection.getAutoCommit() returned true
+[2024-02-05 10:50:38.928][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection opened. {executed in 11ms} 
+[2024-02-05 10:50:38.928][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.new Connection returned 
+[2024-02-05 10:50:38.928][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.isReadOnly() returned false
+[2024-02-05 10:50:38.929][HikariPool-1 connection adder][l.log4j2][INFO]:4. Connection.getAutoCommit() returned true
+[2024-02-05 10:50:38.951][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection opened. {executed in 22ms} 
+[2024-02-05 10:50:38.952][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.new Connection returned 
+[2024-02-05 10:50:38.954][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.isReadOnly() returned false
+[2024-02-05 10:50:38.954][HikariPool-1 connection adder][l.log4j2][INFO]:5. Connection.getAutoCommit() returned true
+[2024-02-05 10:50:38.967][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection opened. {executed in 13ms} 
+[2024-02-05 10:50:38.967][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.new Connection returned 
+[2024-02-05 10:50:38.968][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.isReadOnly() returned false
+[2024-02-05 10:50:38.968][HikariPool-1 connection adder][l.log4j2][INFO]:6. Connection.getAutoCommit() returned true
+[2024-02-05 10:50:38.983][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection opened. {executed in 15ms} 
+[2024-02-05 10:50:38.984][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.new Connection returned 
+[2024-02-05 10:50:38.987][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.isReadOnly() returned false
+[2024-02-05 10:50:38.987][HikariPool-1 connection adder][l.log4j2][INFO]:7. Connection.getAutoCommit() returned true
+[2024-02-05 10:50:39.005][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection opened. {executed in 16ms} 
+[2024-02-05 10:50:39.005][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.new Connection returned 
+[2024-02-05 10:50:39.006][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.isReadOnly() returned false
+[2024-02-05 10:50:39.006][HikariPool-1 connection adder][l.log4j2][INFO]:8. Connection.getAutoCommit() returned true
+[2024-02-05 10:50:39.024][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection opened. {executed in 18ms} 
+[2024-02-05 10:50:39.025][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.new Connection returned 
+[2024-02-05 10:50:39.027][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.isReadOnly() returned false
+[2024-02-05 10:50:39.028][HikariPool-1 connection adder][l.log4j2][INFO]:9. Connection.getAutoCommit() returned true
+[2024-02-05 10:50:39.034][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-02-05 10:50:39.042][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection opened. {executed in 13ms} 
+[2024-02-05 10:50:39.042][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.new Connection returned 
+[2024-02-05 10:50:39.042][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.isReadOnly() returned false
+[2024-02-05 10:50:39.042][HikariPool-1 connection adder][l.log4j2][INFO]:10. Connection.getAutoCommit() returned true
+[2024-02-05 10:50:39.091][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-02-05 10:50:39.138][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-02-05 10:50:39.268][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-02-05 10:50:39.285][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-02-05 10:50:39.287][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.99 seconds (JVM running for 3.827)
+[2024-02-05 10:50:49.352][http-nio-8080-exec-1][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-02-05 10:50:49.353][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Initializing Servlet 'dispatcherServlet'
+[2024-02-05 10:50:49.357][http-nio-8080-exec-1][o.s.w.s.DispatcherServlet][INFO]:Completed initialization in 4 ms
+[2024-02-05 10:50:54.642][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-02-05 10:50:54.643][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown initiated...
+[2024-02-05 10:50:54.644][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection closed. {executed in 1ms} 
+[2024-02-05 10:50:54.644][HikariPool-1 connection closer][l.log4j2][INFO]:1. Connection.close() returned 
+[2024-02-05 10:50:54.644][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection closed. {executed in 0ms} 
+[2024-02-05 10:50:54.644][HikariPool-1 connection closer][l.log4j2][INFO]:2. Connection.close() returned 
+[2024-02-05 10:50:54.644][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection closed. {executed in 0ms} 
+[2024-02-05 10:50:54.644][HikariPool-1 connection closer][l.log4j2][INFO]:3. Connection.close() returned 
+[2024-02-05 10:50:54.645][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection closed. {executed in 0ms} 
+[2024-02-05 10:50:54.645][HikariPool-1 connection closer][l.log4j2][INFO]:4. Connection.close() returned 
+[2024-02-05 10:50:54.645][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection closed. {executed in 0ms} 
+[2024-02-05 10:50:54.645][HikariPool-1 connection closer][l.log4j2][INFO]:5. Connection.close() returned 
+[2024-02-05 10:50:54.645][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection closed. {executed in 0ms} 
+[2024-02-05 10:50:54.645][HikariPool-1 connection closer][l.log4j2][INFO]:6. Connection.close() returned 
+[2024-02-05 10:50:54.645][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection closed. {executed in 0ms} 
+[2024-02-05 10:50:54.645][HikariPool-1 connection closer][l.log4j2][INFO]:7. Connection.close() returned 
+[2024-02-05 10:50:54.646][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection closed. {executed in 1ms} 
+[2024-02-05 10:50:54.646][HikariPool-1 connection closer][l.log4j2][INFO]:8. Connection.close() returned 
+[2024-02-05 10:50:54.646][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection closed. {executed in 0ms} 
+[2024-02-05 10:50:54.646][HikariPool-1 connection closer][l.log4j2][INFO]:9. Connection.close() returned 
+[2024-02-05 10:50:54.646][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection closed. {executed in 0ms} 
+[2024-02-05 10:50:54.646][HikariPool-1 connection closer][l.log4j2][INFO]:10. Connection.close() returned 
+[2024-02-05 10:50:54.647][SpringContextShutdownHook][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Shutdown completed.
+[2024-02-05 11:16:29.642][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 17484 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 11:16:29.644][main][h.b.BoardApplication][INFO]:The following profiles are active: prod
+[2024-02-05 11:16:30.513][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 11:16:30.521][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:16:30.522][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 11:16:30.522][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 11:16:30.727][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 11:16:30.732][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 11:16:30.732][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1038 ms
+[2024-02-05 11:16:30.861][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-02-05 11:16:30.862][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-02-05 11:16:31.307][main][c.z.h.p.HikariPool][ERROR]:HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'seungwon'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at net.sf.log4jdbc.sql.jdbcapi.DriverSpy.connect(DriverSpy.java:401)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:120)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.isEmbedded(DataSourceInitializer.java:136)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.isEnabled(DataSourceInitializer.java:128)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:95)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:62)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:227)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:52)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1807)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:528)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at hello.board.BoardApplication.main(BoardApplication.java:12)
+[2024-02-05 11:16:31.535][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-02-05 11:16:31.599][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-02-05 11:16:31.666][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-02-05 11:16:31.793][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:16:31.821][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-02-05 11:16:31.825][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.578 seconds (JVM running for 3.632)
+[2024-02-05 11:16:47.493][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-02-05 11:17:05.846][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 16276 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 11:17:05.849][main][h.b.BoardApplication][INFO]:The following profiles are active: prod
+[2024-02-05 11:17:06.758][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 11:17:06.764][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:17:06.765][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 11:17:06.765][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 11:17:06.983][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 11:17:06.988][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 11:17:06.988][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1087 ms
+[2024-02-05 11:17:07.121][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-02-05 11:17:07.122][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-02-05 11:17:07.573][main][c.z.h.p.HikariPool][ERROR]:HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'seungwon'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at net.sf.log4jdbc.sql.jdbcapi.DriverSpy.connect(DriverSpy.java:401)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:120)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.isEmbedded(DataSourceInitializer.java:136)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.isEnabled(DataSourceInitializer.java:128)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:95)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:62)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:227)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:52)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1807)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:528)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at hello.board.BoardApplication.main(BoardApplication.java:12)
+[2024-02-05 11:17:07.899][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-02-05 11:17:07.961][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-02-05 11:17:08.004][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-02-05 11:17:08.090][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:17:08.121][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-02-05 11:17:08.125][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.673 seconds (JVM running for 3.588)
+[2024-02-05 11:17:20.476][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-02-05 11:18:53.886][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 13420 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 11:18:53.889][main][h.b.BoardApplication][INFO]:The following profiles are active: prod
+[2024-02-05 11:18:55.177][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 11:18:55.190][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:18:55.191][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 11:18:55.191][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 11:18:55.704][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 11:18:55.709][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 11:18:55.709][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1752 ms
+[2024-02-05 11:18:55.939][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-02-05 11:18:55.940][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-02-05 11:18:56.507][main][c.z.h.p.HikariPool][ERROR]:HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'seungwon'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at net.sf.log4jdbc.sql.jdbcapi.DriverSpy.connect(DriverSpy.java:401)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:120)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.isEmbedded(DataSourceInitializer.java:136)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.isEnabled(DataSourceInitializer.java:128)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:95)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:62)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:227)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:52)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1807)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:528)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at hello.board.BoardApplication.main(BoardApplication.java:12)
+[2024-02-05 11:18:56.781][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-02-05 11:18:56.849][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-02-05 11:18:56.891][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-02-05 11:18:56.992][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:18:57.020][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-02-05 11:18:57.023][main][h.b.BoardApplication][INFO]:Started BoardApplication in 3.743 seconds (JVM running for 4.622)
+[2024-02-05 11:19:33.923][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-02-05 11:19:36.810][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 10076 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 11:19:36.812][main][h.b.BoardApplication][INFO]:The following profiles are active: prod
+[2024-02-05 11:19:37.691][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 11:19:37.705][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:19:37.705][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 11:19:37.705][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 11:19:37.931][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 11:19:37.935][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 11:19:37.936][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1077 ms
+[2024-02-05 11:19:38.112][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-02-05 11:19:38.113][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-02-05 11:19:38.625][main][c.z.h.p.HikariPool][ERROR]:HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'seungwon'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at net.sf.log4jdbc.sql.jdbcapi.DriverSpy.connect(DriverSpy.java:401)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:120)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.isEmbedded(DataSourceInitializer.java:136)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.isEnabled(DataSourceInitializer.java:128)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:95)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:62)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:227)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:52)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1807)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:528)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at hello.board.BoardApplication.main(BoardApplication.java:12)
+[2024-02-05 11:19:38.822][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-02-05 11:19:38.881][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-02-05 11:19:38.940][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-02-05 11:19:39.048][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:19:39.071][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-02-05 11:19:39.076][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.721 seconds (JVM running for 3.632)
+[2024-02-05 11:20:13.064][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-02-05 11:20:22.959][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 14732 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 11:20:22.961][main][h.b.BoardApplication][INFO]:The following profiles are active: local
+[2024-02-05 11:20:23.956][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 11:20:23.962][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:20:23.962][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 11:20:23.962][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 11:20:24.147][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 11:20:24.155][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 11:20:24.155][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1096 ms
+[2024-02-05 11:20:24.289][main][o.s.j.d.DataSourceUtils][DEBUG]:Fetching JDBC Connection from DataSource
+[2024-02-05 11:20:24.290][main][c.z.h.HikariDataSource][INFO]:HikariPool-1 - Starting...
+[2024-02-05 11:20:24.659][main][c.z.h.p.HikariPool][ERROR]:HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'seungwon'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at net.sf.log4jdbc.sql.jdbcapi.DriverSpy.connect(DriverSpy.java:401)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:120)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.isEmbedded(DataSourceInitializer.java:136)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.isEnabled(DataSourceInitializer.java:128)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:95)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:62)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:227)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:52)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1807)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:528)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at hello.board.BoardApplication.main(BoardApplication.java:12)
+[2024-02-05 11:20:24.857][main][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Initializing ExecutorService 'applicationTaskExecutor'
+[2024-02-05 11:20:24.915][main][o.s.b.a.w.s.WelcomePageHandlerMapping][INFO]:Adding welcome page: ServletContext resource [/index.html]
+[2024-02-05 11:20:24.965][main][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][WARN]:Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2024-02-05 11:20:25.057][main][o.a.c.h.Http11NioProtocol][INFO]:Starting ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:20:25.078][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat started on port(s): 8080 (http) with context path ''
+[2024-02-05 11:20:25.088][main][h.b.BoardApplication][INFO]:Started BoardApplication in 2.5 seconds (JVM running for 3.478)
+[2024-02-05 11:22:42.543][SpringContextShutdownHook][o.s.s.c.ThreadPoolTaskExecutor][INFO]:Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-02-05 11:22:49.423][background-preinit][o.h.v.m.ResourceBundleMessageInterpolator][DEBUG]:Loaded expression factory via original TCCL
+[2024-02-05 11:22:49.531][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 224 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 11:22:49.531][main][h.b.BoardApplication][INFO]:The following profiles are active: database
+[2024-02-05 11:22:50.348][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 11:22:50.353][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:22:50.354][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 11:22:50.354][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 11:22:50.539][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 11:22:50.543][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 11:22:50.543][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 911 ms
+[2024-02-05 11:22:50.650][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 11:22:50.652][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 11:22:50.669][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 11:22:50.672][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 11:23:41.320][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 11596 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 11:23:41.323][main][h.b.BoardApplication][INFO]:The following profiles are active: database
+[2024-02-05 11:23:42.191][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 11:23:42.197][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:23:42.199][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 11:23:42.199][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 11:23:42.426][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 11:23:42.441][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 11:23:42.441][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1074 ms
+[2024-02-05 11:23:42.569][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 11:23:42.572][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 11:23:42.596][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 11:23:42.600][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 11:24:11.691][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 19368 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 11:24:11.693][main][h.b.BoardApplication][INFO]:The following profiles are active: database
+[2024-02-05 11:24:12.692][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 11:24:12.699][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:24:12.700][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 11:24:12.700][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 11:24:12.935][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 11:24:12.940][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 11:24:12.940][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 1156 ms
+[2024-02-05 11:24:13.041][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 11:24:13.043][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 11:24:13.059][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 11:24:13.063][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+[2024-02-05 11:26:42.203][main][h.b.BoardApplication][INFO]:Starting BoardApplication on DESKTOP-5R4SPPS with PID 19820 (C:\Users\seungwon\Downloads\cicdtest\target\classes started by seungwon in C:\Users\seungwon\Downloads\cicdtest)
+[2024-02-05 11:26:42.205][main][h.b.BoardApplication][INFO]:The following profiles are active: database
+[2024-02-05 11:26:43.016][main][o.s.b.w.e.t.TomcatWebServer][INFO]:Tomcat initialized with port(s): 8080 (http)
+[2024-02-05 11:26:43.022][main][o.a.c.h.Http11NioProtocol][INFO]:Initializing ProtocolHandler ["http-nio-8080"]
+[2024-02-05 11:26:43.022][main][o.a.c.c.StandardService][INFO]:Starting service [Tomcat]
+[2024-02-05 11:26:43.022][main][o.a.c.c.StandardEngine][INFO]:Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2024-02-05 11:26:43.225][main][o.a.j.s.TldScanner][INFO]:At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2024-02-05 11:26:43.229][main][o.a.c.c.C.[.[.[/]][INFO]:Initializing Spring embedded WebApplicationContext
+[2024-02-05 11:26:43.229][main][o.s.w.c.ContextLoader][INFO]:Root WebApplicationContext: initialization completed in 979 ms
+[2024-02-05 11:26:43.336][main][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext][WARN]:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\controller\member\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberService' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\service\member\MemberService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberMapper' defined in file [C:\Users\seungwon\Downloads\cicdtest\target\classes\hello\board\repository\member\MemberMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2024-02-05 11:26:43.339][main][o.a.c.c.StandardService][INFO]:Stopping service [Tomcat]
+[2024-02-05 11:26:43.353][main][o.s.b.a.l.ConditionEvaluationReportLoggingListener][INFO]:
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-02-05 11:26:43.360][main][o.s.b.d.LoggingFailureAnalysisReporter][ERROR]:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
